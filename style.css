@@ -1,15 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    margin-top: 32px;
+    background-color: rgb(223, 227, 215);
+
+}
+.container{
+    width: 760px;
+    height: 760px;
+    background-color: white;
+}
+
 .row{
     display: flex;
-    justify-content: center;
 }
 
 .box {
-    width: 50px;
-    height: 50px;
+    box-sizing: border-box;
     border: 1px solid black;
     transition: 0.3s;
 }
 
 .box:hover {
     background-color: black;
+}
+
+.size-btn{
+
+    font-size: 16px;
+    padding: 18px;
+    text-align: center;
+    border-radius: 8px ;
+    margin: 16px;
+
 }
