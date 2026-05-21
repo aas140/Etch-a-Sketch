@@ -23,11 +23,11 @@ body{
     transition: 0.3s;
 }
 
-.box:hover {
+/* .box:hover {
     background-color: black;
-}
+} */
 
-.size-btn{
+.size-btn, .reset{
 
     font-size: 16px;
     padding: 18px;

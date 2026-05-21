@@ -17,6 +17,16 @@ function createGrid(n){
             box.style.width = `${boxSize}px`;
             box.style.height = `${boxSize}px`;
 
+            box.addEventListener("mouseover", () => {
+
+                const r = Math.floor(Math.random() * 256);
+                const g = Math.floor(Math.random() * 256);
+                const b = Math.floor(Math.random() * 256);
+
+                box.style.backgroundColor =
+                `rgb(${r}, ${g}, ${b})`;
+            });
+
             row.appendChild(box);
         }
 
