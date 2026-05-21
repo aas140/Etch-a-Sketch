@@ -42,3 +42,15 @@ sizeBtn.addEventListener('click', () => {
     createGrid(userInput);
 })
 
+const resetBtn = document.querySelector(".reset");
+
+resetBtn.addEventListener("click", () => {
+
+    const boxes = document.querySelectorAll(".box");
+
+    boxes.forEach((box) => {
+        box.style.backgroundColor = "";
+    });
+});
+
+
